@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Plataforma de Aprendizaje</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet">
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./public/css/styles.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">JPM Dev School</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/views/careers/careers.html">Carreras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/views/courses/courses.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary"
+                            href="./src/views/auth/login.html">Iniciar
+                            Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section text-center text-white">
+            <div class="container cap">
+                <h1 class="display-4">Bienvenido a JPM Dev School</h1>
+                <p class="lead">Transforma tu aprendizaje con los mejores cursos
+                    en línea.</p>
+                <a href="#" class="btn btn-lg btn-primary">Explora los
+                    Cursos</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Características de la
+                    Plataforma</h2>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <i
+                            class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+                        <h4>Aprendizaje Interactivo</h4>
+                        <p>Accede a contenido interactivo que incluye videos,
+                            PDFs, y más.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-tasks fa-3x mb-3 text-primary"></i>
+                        <h4>Tareas y Evaluaciones</h4>
+                        <p>Completa evaluaciones y tareas para medir tu
+                            progreso.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i
+                            class="fas fa-certificate fa-3x mb-3 text-primary"></i>
+                        <h4>Certificados</h4>
+                        <p>Obtén certificados al completar tus cursos y mejora
+                            tu CV.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="courses-section py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Cursos Destacados</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img
+                                src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                class="card-img-top"
+                                alt="Curso de Programación">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso de
+                                    Programación</h5>
+                                <p class="card-text">Aprende a programar desde
+                                    cero con nuestros expertos.</p>
+                                <a href="#" class="btn btn-primary">Más
+                                    Información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img
+                                src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="card-img-top"
+                                alt="Curso de Diseño Gráfico">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso de Diseño
+                                    Gráfico</h5>
+                                <p class="card-text">Desarrolla tus habilidades
+                                    en diseño con nuestras clases.</p>
+                                <a href="#" class="btn btn-primary">Más
+                                    Información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img
+                                src="https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="card-img-top"
+                                alt="Curso de Marketing Digital">
+                            <div class="card-body">
+                                <h5 class="card-title">Curso de Marketing
+                                    Digital</h5>
+                                <p class="card-text">Domina el marketing digital
+                                    y lleva tu negocio al siguiente nivel.</p>
+                                <a href="#" class="btn btn-primary">Más
+                                    Información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer bg-dark text-white py-4">
+            <div class="container text-center">
+                <p class="footer-text">&copy; 2024 JPM Dev School. Todos los
+                    derechos reservados.</p>
+                <div>
+                    <a href="#" class="text-white mx-2"><i
+                            class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white mx-2"><i
+                            class="fab fa-twitter fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/ingjorgepertuz/" class="text-white mx-2"><i
+                            class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS and dependencies -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
